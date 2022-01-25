@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Image</title>
+        <style>
+            #otherpages {
+                text-align: right;
+            }
+            a {
+                text-decoration: none;
+            }
+            #search {
+                text-align: center;
+            }
+            #search input[type="text"] {
+                width: 600px;
+            }
+            form .search {
+                padding: 20px;
+                margin: 5px;
+                border-radius: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="otherpages">
+            <a href="index.html">Google Search</a>
+        </div>
+        <form action="https://google.com/search" id="search">
+            <input type="text" name="q" class="search" ><br>
+            <input type="hidden" name="tbm" value="isch"class="search"><br>
+            <input type="submit" value="Image Search" class="search">
+        </form>
+    </body>
+</html>

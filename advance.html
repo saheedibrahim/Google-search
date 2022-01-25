@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>      
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Google Advanced search</title>
+        <style>
+            #otherpages {
+                text-align: right;
+            }
+            a {
+                text-decoration: none;
+            }
+            .label_style{
+                width: 300px;
+            }
+            tr > td input[type="text"]{
+                width: 600px;
+                padding: 3px;
+            }
+            input[type="text"]:active{
+                border: 2px solid blue;
+            }
+            #submit_button{
+                background-color: #4B8DFA;
+                color:white;
+                padding: 10px;
+            }
+            #submit{
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="otherpages">
+            <a href="index.html">Google Search</a>
+        </div>
+            <form action="https://google.com/search">
+                <label for="" class="label_style">Find pages with:</label>                
+                <div class="arr">
+                    <table>
+                        <tr>
+                            <td><label for="field1" class="label_style" style="width: 400px; color: violet;">all these words:</label></td>
+                            <td><input type="text" class="search"  name="as_q"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="field2" class="label_style">this exact word or phrase:</label></td>
+                            <td><input type="text" name="as_epq" class="search"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="field3" class="label_style">any of these words:</label></td>
+                            <td><input type="text" name="as_oq" class="search"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="field4" class="label_style">none of these words:</label></td>
+                            <td><input type="text" name="as_eq" class="search"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="submit" value="Advanced Search" id="submit_button" style="float: right;">
+                            </td>                           
+                        </tr>
+                    </table>
+                </div>
+            </form>
+    </body>
+</html>
