@@ -1,0 +1,24 @@
+#otherpages {
+    text-align: right;
+}
+a {
+    text-decoration: none;
+}
+.label_style{
+    width: 300px;
+}
+tr > td input[type="text"]{
+    width: 600px;
+    padding: 3px;
+}
+input[type="text"]:active{
+    border: 2px solid blue;
+}
+#submit_button{
+    background-color: #4B8DFA;
+    color:white;
+    padding: 10px;
+}
+#submit{
+    float: right;
+}

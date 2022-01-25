@@ -1,0 +1,17 @@
+#otherpages {
+    text-align: right;
+}
+a {
+    text-decoration: none;
+}
+#search {
+    text-align: center;
+}
+#search input[type="text"] {
+    width: 600px;
+}
+form .search {
+    padding: 20px;
+    margin: 5px;
+    border-radius: 30px;
+}
